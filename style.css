@@ -1,0 +1,140 @@
+body {
+    background: url('C:/Users/DELL/Pictures/Saved Pictures/bgimage.jpg') no-repeat center center fixed;
+    background-size: cover;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Arial, sans-serif;
+}
+        .h1{
+            font-size:5rem;
+            color:crimson;
+            text-align:center;
+            margin-top:20px;
+            text-shadow: 2px 2px 8px #fff, 0 0 10px #cfdef3;
+        }
+        .h2{
+            font-size:2rem;
+            text-align:center;
+            color: #222;
+            margin-left: 8%;
+            text-shadow: 1px 1px 6px #fff;
+        }
+        .selection{
+            text-align:center;
+            margin-top:20px;
+            font-weight:bold;
+            padding: 20px 0;
+            border-radius: 20px;
+            width: 65%;
+            margin-left: auto;
+            margin-right: auto;
+            font-size: 2.0rem;
+            backdrop-filter: blur(2px);
+        }
+
+        #option {
+            
+            padding: 18px 28px;
+            font-size: 1.3rem;
+            border-radius: 10px;
+            border: 1px solid #b0b0b0;
+            margin-top: 10px;
+            background: #f7fafd;
+            box-shadow: 0 2px 8px hwb(177 81% 5%);
+        }
+        input[type="text"] {
+    padding: 12px 18px;
+    font-size: 1.1rem;
+    border: 1px solid #b0b0b0;
+    border-radius: 8px;
+    margin: 10px 8px 0 0;
+    background: rgba(255,255,255,0.85);
+    color: #222;
+    box-shadow: 0 2px 8px rgba(207, 222, 243, 0.3);
+    outline: none;
+    transition: border 0.2s, box-shadow 0.2s;
+}
+
+input[type="text"]:focus {
+    border: 1.5px solid #4caf50;
+    box-shadow: 0 4px 16px rgba(76, 175, 80, 0.15);
+}
+
+#locate {
+    padding: 12px 22px;
+    font-size: 1.1rem;
+    color: #fff;
+    background: linear-gradient(90deg, #36d1c4 0%, #5b86e5 100%);
+    border: none;
+    border-radius: 8px;
+    margin-top: 10px;
+    cursor: pointer;
+    box-shadow: 0 4px 16px rgba(91, 134, 229, 0.15);
+    transition: background 0.3s, transform 0.2s, box-shadow 0.3s;
+}
+
+#locate:hover {
+    background: linear-gradient(90deg, #5b86e5 0%, #36d1c4 100%);
+    transform: translateY(-2px) scale(1.04);
+    box-shadow: 0 8px 24px rgba(54, 209, 196, 0.18);
+}
+
+     .btn-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 24px;
+}
+#btn {
+    padding: 12px 32px;
+    font-size: 1.2rem;
+    color:rgb(56, 36, 36);
+    background: linear-gradient(90deg, #e0ff58 0%, hsl(108, 88%, 52%) 100%);
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 4px 16px rgba(240, 152, 25, 0.15);
+    cursor: pointer;
+    margin-top: 24px;
+    transition: background 0.3s, transform 0.2s, box-shadow 0.3s;
+}
+
+#btn:hover {
+    background: linear-gradient(90deg, #f09819 0%, #ff5858 100%);
+    transform: translateY(-2px) scale(1.04);
+    box-shadow: 0 8px 24px rgba(255, 88, 88, 0.18);
+}
+#result {
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 80px;
+    margin: 40px auto 0 auto;
+    width: 60%;
+    background: rgba(255,255,255,0.92);
+    border-radius: 16px;
+    box-shadow: 0 4px 24px rgba(0,0,0,0.12);
+    font-size: 1.3rem;
+    color: #222;
+    padding: 32px 40px;
+    text-align: left;
+    transition: box-shadow 0.3s;
+    word-break: break-word;
+}
+#city {
+    padding: 12px 18px;
+    font-size: 1.1rem;
+    border: 1px solid #b0b0b0;
+    border-radius: 8px;
+    margin: 10px 8px 0 0;
+    background: rgba(255,255,255,0.85);
+    color: #222;
+    box-shadow: 0 2px 8px rgba(207, 222, 243, 0.3);
+    outline: none;
+    transition: border 0.2s, box-shadow 0.2s;
+}
+
+#city:focus {
+    border: 1.5px solid #4caf50;
+    box-shadow: 0 4px 16px rgba(76, 175, 80, 0.15);
+}

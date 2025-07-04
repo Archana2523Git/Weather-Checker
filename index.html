@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 class="h1">Weather Checker</h1>
+    <h2 class="h2">Know Weather Status here....</h2>
+    <div class="selection">
+        <select id="option">
+            <option value="" disabled selected>Select an option</option>
+            <option value="current">Current Weather</option>
+            <option value="forecast">Weather Forecast</option>
+            <option value="airquality">Air Quality</option>
+            <option value="alerts">Weather Alerts</option>
+        </select>
+        <br><br>
+        <input type="text" id="city" placeholder="Enter City Name">
+        <br><br>
+        <input type="text" id="lat" placeholder="Enter Latitude">
+        <input type="text" id="lon" placeholder="Enter Longitude">
+        <button id="locate">Use My Location</button>
+    </div>
+    <div class="btn-container">
+        <button id="btn">Check</button>
+    </div>
+    <div id="result"></div>
+    <script src="script.js"></script>
+</body>
+</html>
